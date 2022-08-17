@@ -1,0 +1,78 @@
+# ${fullname}
+
+Location: ${address}
+%{ if length(phone) > 0 ~}
+${phone}
+%{ endif ~}
+%{ if length(email) > 0 ~}
+Email: [${email}](mailto:${email})
+%{ endif ~}
+%{ if length(website) > 0 ~}
+Website: [${website}](${website})
+%{ endif ~}
+%{ if length(linkedin) > 0 ~}
+Linkedin: [${linkedin}](${linkedin})
+%{ endif ~}
+%{ if length(github) > 0 ~}
+GitHub: [${github}](${github})
+%{ endif }
+
+---
+### SUMMARY OF QUALIFICATIONS
+%{ for qualification in qualifications ~}
+- ${qualification}
+%{ endfor ~}
+
+---
+### PROFESSIONAL EXPERIENCE
+%{ for workplace in experience ~}
+
+**${workplace.position}**     ${workplace.years}
+${workplace.company}, ${workplace.city}, ${workplace.country}
+%{ for duty in workplace.duties ~}
+- ${duty}
+%{ endfor ~}
+
+
+%{ endfor ~}
+
+%{ if length(volunteer_experience) > 0 ~}
+---
+### VOLUNTEER EXPERIENCE
+%{ for workplace in volunteer_experience ~}
+**${workplace.position}**     ${workplace.years}
+${workplace.company}, ${workplace.city}, ${workplace.country}
+%{ for duty in workplace.duties ~}
+- ${duty}
+%{ endfor ~}
+
+%{ endfor ~}
+%{ endif ~}
+
+---
+### EDUCATION
+%{ for education_place in education ~}
+**${education_place.degree}**     ${education_place.years}
+${education_place.university}, ${education_place.city}/${education_place.country}
+
+%{ endfor ~}
+
+---
+### COURSES
+%{ for course in courses ~}
+- ${course.year}, ${course.provider} - ${course.name}
+%{ endfor ~}
+
+---
+### CERTIFICATIONS
+%{ for certification in certifications ~}
+- **${certification.name}**     ${certification.year}
+${certification.provider}
+Credential ID: ${certification.credential_id}
+%{ endfor ~}
+
+---
+### REFERENCES
+%{ for reference in references ~}
+- ${reference}
+%{ endfor ~}
