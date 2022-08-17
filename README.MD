@@ -70,9 +70,9 @@ Step 2:  Run the `terraform apply` command.
 
 Step 3:  Rendered CV in a Markdown format is opened in your default pdf viewer.
 
-![CV_John_Doe.MD](./examples/John Doe/CV_John_Doe.MD.png)
+![CV_John_Doe.MD](examples/John%20Doe/CV_John_Doe.MD.png?raw=true "CV_John_Doe.MD")
 
-See other [examples](./examples/).
+See other [examples](examples/).
 
 
 ## Requirements
