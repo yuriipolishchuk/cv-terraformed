@@ -1,5 +1,5 @@
 module "cv" {
-  source = "../modules/cv-terraformed"
+  source = "../../modules/cv-terraformed"
 
   fullname = "Yurii Polishchuk"
 
