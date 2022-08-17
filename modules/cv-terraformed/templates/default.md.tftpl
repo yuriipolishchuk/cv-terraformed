@@ -2,19 +2,19 @@
 
 Location: ${address}
 %{ if length(phone) > 0 ~}
-${phone}
+- ${phone}
 %{ endif ~}
 %{ if length(email) > 0 ~}
-Email: [${email}](mailto:${email})
+- Email: [${email}](mailto:${email})
 %{ endif ~}
 %{ if length(website) > 0 ~}
-Website: [${website}](${website})
+- Website: [${website}](${website})
 %{ endif ~}
 %{ if length(linkedin) > 0 ~}
-Linkedin: [${linkedin}](${linkedin})
+- Linkedin: [${linkedin}](${linkedin})
 %{ endif ~}
 %{ if length(github) > 0 ~}
-GitHub: [${github}](${github})
+- GitHub: [${github}](${github})
 %{ endif }
 
 ---

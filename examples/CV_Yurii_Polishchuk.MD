@@ -1,10 +1,10 @@
 # Yurii Polishchuk
 
 Location: Coquitlam, BC, Canada
-Telegram: [@yuriipolishchuk](https://t.me/yuriipolishchuk)
-Email: [yurii@polishchuk.link](mailto:yurii@polishchuk.link)
-Linkedin: [https://www.linkedin.com/in/yurii-polishchuk/](https://www.linkedin.com/in/yurii-polishchuk/)
-GitHub: [https://github.com/yuriipolishchuk](https://github.com/yuriipolishchuk)
+- Telegram: [@yuriipolishchuk](https://t.me/yuriipolishchuk)
+- Email: [yurii@polishchuk.link](mailto:yurii@polishchuk.link)
+- Linkedin: [https://www.linkedin.com/in/yurii-polishchuk/](https://www.linkedin.com/in/yurii-polishchuk/)
+- GitHub: [https://github.com/yuriipolishchuk](https://github.com/yuriipolishchuk)
 
 
 ---
